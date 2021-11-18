@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>InAppBrowser.addEventListener Example</title>
+		<meta charset="utf-8">
+		<meta http-equiv="Content-Security-Policy">
+		<meta name="format-detection" content="telephone=no">
+		<meta name="msapplication-tap-highlight" content="no">
+		<meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+		<link rel="stylesheet" type="text/css" href="css/index.css">
+		<link rel="stylesheet" type="text/css" href="css/button.index.css">
+	</head>
+	
+	<body>
+	<center>
+	<div class="app"></div>
+	<div>
+			<h1>Apache Cordova Browser</h1>
+			<br>
+	</div>
+
+	<div>
+	<button
+		class="btn"
+		onclick="beep();">beep_test
+	</button>
+	</div>
+
+	<div>
+	<button id="inputURL" class="btn" onclick="open_inab_001(),beep();">InApp_Browser</button>
+	</div>
+
+	<div>
+	<input 
+			type = "button" 
+			onclick="open_inab_003(), beep();" 
+			id="blinky" 
+			class="btn" 
+			value="open_blink_window">
+	</input>
+	</div>
+	<div>
+	<input 
+			type = "button" 
+			onclick="open_inab_004(), beep();" 
+			id="selfy" 
+			class="btn" 
+			value="open_self_window">
+	</input>
+	</div>
+	</center>
+	<script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+	<script type="text/javascript" charset="utf-8" src="./js/brows.js"></script>
+	<script src="./js/beep.js"></script> 
+	</body>
+</html>
