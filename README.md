@@ -6,7 +6,7 @@
 
     cordova plugin add cordova-plugin-dialogs
 
-# Android IOS Only
+# Android・IOS Only
 
     cordova platform add android@10.1.1
 
